@@ -19,6 +19,7 @@ class Dog
     @@all.map do |name|
       puts "#{name}"
     end
+  end
   
   def self.clear_all
     @@all = []
