@@ -14,10 +14,10 @@ class Dog
   end
   
   def self.print_all
+    binding.pry
     @@all.map do |name|
       puts "#{name}"
     end
-    binding.pry
   
   def self.clear_all
     @@all = []
