@@ -13,6 +13,7 @@ class Dog
   def self.all
     @@all
   end
+  
   def self.save
     @@all << name
   end
